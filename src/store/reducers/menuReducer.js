@@ -10,7 +10,7 @@ const initState = {
         rating: 4.5,
         price: 35000,
         day: '20210325',
-        imageURL: ''
+        imageURL: 'https://kln.imgix.net/production/W4MDU16C9M-Paket%20Nasi%20Lemak%20Paha%20Ayam%20Guling%20Taliwang.jpg?w=700'
       },
       { 
         id: 2,
@@ -21,7 +21,7 @@ const initState = {
         rating: 4.5,
         price: 35000,
         day: '20210325',
-        imageURL: ''
+        imageURL: 'https://kln.imgix.net/production/MINI-KETO.jpg'
       },
       { 
         id: 3,
@@ -32,7 +32,7 @@ const initState = {
         rating: 4.5,
         price: 35000,
         day: '20210325',
-        imageURL: ''
+        imageURL: 'https://kln.imgix.net/production/healthypc.jpg-2d20aa6f130d9cc16d63c876bca21992'
       },
       {
         id: 4,
@@ -43,7 +43,7 @@ const initState = {
         rating: 4.5,
         price: 35000,
         day: '20210326',
-        imageURL: ''
+        imageURL: 'https://kln.imgix.net/production/nusa-by-kafe-betawi.jpeg'
       },
       { 
         id: 5,
@@ -54,7 +54,7 @@ const initState = {
         rating: 4.5,
         price: 35000,
         day: '20210326',
-        imageURL: ''
+        imageURL: 'https://kln.imgix.net/production/Ayam%20suwir%20taliwang.jpg'
       },
       {
         id: 6,
@@ -65,7 +65,7 @@ const initState = {
         rating: 4.5,
         price: 35000,
         day: '20210326',
-        imageURL: ''
+        imageURL: 'https://kln.imgix.net/production/sangjasal%20korean.jpg'
       }
     ],
     loading: false,

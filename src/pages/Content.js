@@ -1,10 +1,13 @@
-import React from 'react'
+import { Body, Header, Footer } from './index'
 
 const Content = () => {
+
   return (
-    <div>
-      <h1>Test</h1>
-    </div>
+    <>
+      <Header/>
+      <Body/>
+      <Footer/>
+    </>
   )
 }
 
