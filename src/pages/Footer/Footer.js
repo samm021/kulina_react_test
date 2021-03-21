@@ -1,10 +1,10 @@
 import React from 'react'
+import { CartModal } from '../../components'
 
 const Footer = () => {
+
   return (
-    <div>
-      
-    </div>
+    <CartModal/>
   )
 }
 

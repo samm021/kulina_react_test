@@ -71,11 +71,7 @@ const initState = {
     loading: false,
     error: null
   },
-  cart: {
-    data: [],
-    loading: false,
-    error: null
-  }
+  cart: []
 }
 
 const menuReducer = (state = initState, action) => {
@@ -83,11 +79,7 @@ const menuReducer = (state = initState, action) => {
     case 'ADD_TO_CART':
       return {
         ...state,
-        cart: {
-          data: [...state.cart.data, action.payload],
-          loading: false,
-          error: null
-        }
+        cart: [...state.cart, action.payload]
       }
     default:
       return state 
